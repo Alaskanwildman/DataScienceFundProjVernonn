@@ -1,6 +1,6 @@
 # Hidden correlations in Steam Game reviews
- Steam is an online platform that many people use to purchase video games. 
- Users can leave reviews on games so that other users can make informed purchases.
+ Steam is an online platform that many people use to purchase video games. <br>
+ Users can leave reviews on games so that other users can make informed purchases.<br>
  I have 3 questions that I will use the metrics of said reviews to answer
 
 ## Questions
