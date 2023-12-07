@@ -26,6 +26,7 @@ This question is highly relevant, however, the data provided has ratings stored 
 ### First Attempt
 <br>
 My first approach to answering this was to simply take the means of each year and graph them, which is what the following chart does. <br>
+
 ![image](https://github.com/Alaskanwildman/DataScienceFundProjVernonn/assets/31549358/479df234-c175-48f4-b590-25ed85317622) <br>
 At first glance at this chart, a viewer would immediately see that newer games have a significantly lower mean score.
 <br>
@@ -34,5 +35,6 @@ At first glance at this chart, a viewer would immediately see that newer games h
 ### Second Attempt
 <br>
 The second approach to finding useful data from this was to implement not only a different numerical strategy but a different form of graph. During my work on the group project, I began to enjoy using boxplots and boxenplots, I think that they give a digestible view of the present data. Knowing this, I made the next chart using one and decided that graphing means was only so useful and included all of the data instead of the mean for each year. <br>
+
 ![image](https://github.com/Alaskanwildman/DataScienceFundProjVernonn/assets/31549358/05b75ac4-0c75-46a8-82c1-75e998762f86)
 
