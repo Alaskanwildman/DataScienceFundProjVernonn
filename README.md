@@ -20,7 +20,8 @@ Below are all of the imports regarding this project, we can see Numpy, Pandas, a
 ![image](https://github.com/Alaskanwildman/DataScienceFundProjVernonn/assets/31549358/f60a03a3-e883-4f9d-bffa-31d05741c1b2) <br>
 
 ## Results
-Question 1: Do newer games tend to have more positive reviews? <br>
+
+### Question 1: Do newer games tend to have more positive reviews? <br>
 This question is highly relevant, however, the data provided has ratings stored not on a scale from 1-10, but rather on a verbose scoring method ranging from 'Overwhelmingly Negative' to 'Overwhelmingly Positive'. This rating scale was frustrating to use because not only is it difficult to visualize but the terms have no real meaning beyond conversational use. Thankfully, Steam uses 9 of these terms, so I mapped each of these inputs to a value 1-9. Mapping these values allows me to attribute a numeric value to the ratings and thus graph them on a scale. <br>
 <br>
 ### First Attempt
@@ -49,3 +50,22 @@ I graphed this using release year as X and Positive Ratio as Y and was given the
 ### Question 1 Conclusion
 The reasonable conclusion for question one seems to be that there is a slight preference for older games. The first graph shows this intensely, however, that graph shows very little information; using only the mean for each year and not giving a range for the values. <br>
 The second and third graphs show a much smaller difference between older and newer games. I attempted to use a graph that employed a line of best fit, but unfortunately due to the sheer volume of newer games, it failed to truly account for the weight of older games.
+
+### Question 2: Are certain operating systems more likely to have games that are rated higher? <br>
+This question is straightforward, and the provided data set works amazingly to answer it. The dataset has 3 columns, 'win', 'mac', and 'linux' to cover the 3 Operating Systems that are supported by Steam. These columns have one of two values, TRUE or FALSE, denoting wether or not said game can be run on the Operating System. <br>
+By simply only taking input from rows where the value was TRUE for only one of the Operating Systems we can determine which one runs the highest-rated games.
+
+This first graph uses the numeric scoring that we created for question one, and then takes games that can run on windows. We see that most of these games score somewhere from 5-7 with some outliers present. 
+![image](https://github.com/Alaskanwildman/DataScienceFundProjVernonn/assets/31549358/fd60cc76-ebc2-413c-88a1-80d21b1f1ba9)
+
+The second graph is for Linux machines. 
+
+![image](https://github.com/Alaskanwildman/DataScienceFundProjVernonn/assets/31549358/b6b9669a-ce9d-41a7-9272-4b2b3dfe53a4)
+
+There are so few games that run on only Linux that the score was exactly 5
+
+Finally we have Mac, unfortunately there were no games that ran exclusively on Mac that are available on the Steam store. 
+
+### Question 2 Conclusion
+
+
