@@ -16,7 +16,7 @@ Thankfully the data provided by Anton is excellent, it comes extremely usable wi
 
 ## Methodology
 Similar to the group project I will be using Numpy, Pandas, and Matplotlib to interact with and visualize the data. <br>
-Below are all of the imports regarding this project, we can see Numpy, Pandas, and matplotlib, as well as Seaborn.
+Below are all of the imports regarding this project, we can see Numpy, Pandas, and Matplotlib, as well as Seaborn.
 ![image](https://github.com/Alaskanwildman/DataScienceFundProjVernonn/assets/31549358/f60a03a3-e883-4f9d-bffa-31d05741c1b2) <br>
 
 ## Results
@@ -38,3 +38,14 @@ The second approach to finding useful data from this was to implement not only a
 
 ![image](https://github.com/Alaskanwildman/DataScienceFundProjVernonn/assets/31549358/05b75ac4-0c75-46a8-82c1-75e998762f86)
 
+### Final Attempt
+<br>
+This data set not only has the 9 levels of rating but also a 'positive_ratio' column, which denotes specifically what percentage of the reviews for this game are positive. Positive ratio could be a useful metric for measuring how well-liked a game is, it certainly provides more detail than a 1-9 scoring system. <br> 
+I graphed this using release year as X and Positive Ratio as Y and was given the following graph:
+
+![image](https://github.com/Alaskanwildman/DataScienceFundProjVernonn/assets/31549358/ab5ea648-1ba4-4450-b5e6-80f27841d031)
+
+
+### Question 1 Conclusion
+The reasonable conclusion for question one seems to be that there is a slight preference for older games. The first graph shows this intensely, however, that graph shows very little information; using only the mean for each year and not giving a range for the values. <br>
+The second and third graphs show a much smaller difference between older and newer games. I attempted to use a graph that employed a line of best fit, but unfortunately due to the sheer volume of newer games, it failed to truly account for the weight of older games.
