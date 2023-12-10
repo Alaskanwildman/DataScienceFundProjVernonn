@@ -101,6 +101,8 @@ Using this graph we can see that there is an incredibly small favor towards high
 # References
 Game Recommendations dataset from Kaggle, uploaded by Anton Kozyriev <br>
 https://www.kaggle.com/datasets/antonkozyriev/game-recommendations-on-steam
+Link to my Python Code
+https://github.com/Alaskanwildman/DataScienceFundProjVernonn/blob/main/codes/IndividualProject.ipynb
 
 
 
