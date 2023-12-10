@@ -81,7 +81,8 @@ I again used the numeric rating system from the first question to answer this qu
 In later attempts, I set a hard limit on the max price to $100 as most games are at or below this threshold. This action has minimal changes to the final result, but it does improve the legibility of the graph by quite a bit
 
 ### Attempt 1
-![image](https://github.com/Alaskanwildman/DataScienceFundProjVernonn/assets/31549358/6b3823e2-5ebe-4c50-9d74-f7b9d8c21742)
+![image](https://github.com/Alaskanwildman/DataScienceFundProjVernonn/assets/31549358/b0524f2a-005c-46a9-a7c1-796585528e99)
+
 
 As we can see in this graph, we have some values that range from $150 to $300. I believe that this is due to software being listed on Steam that is intended for Industry-scale use, and as a result, I removed it from my graphs.
 
