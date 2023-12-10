@@ -23,7 +23,9 @@ Below are all of the imports regarding this project, we can see Numpy, Pandas, a
 
 # Question 1: Do newer games tend to have more positive reviews? <br>
 This question is highly relevant, however, the data provided has ratings stored not on a scale from 1-10, but rather on a verbose scoring method ranging from 'Overwhelmingly Negative' to 'Overwhelmingly Positive'. This rating scale was frustrating to use because not only is it difficult to visualize but the terms have no real meaning beyond conversational use. Thankfully, Steam uses 9 of these terms, so I mapped each of these inputs to a value 1-9. Mapping these values allows me to attribute a numeric value to the ratings and thus graph them on a scale. <br>
-![image](https://github.com/Alaskanwildman/DataScienceFundProjVernonn/assets/31549358/b5207ff1-908e-46a9-9e0b-079b09f6ec0e)
+![image](https://github.com/Alaskanwildman/DataScienceFundProjVernonn/assets/31549358/2f83d336-f4a9-476c-a883-dce110888cdc)
+
+
 
 <br>
 
