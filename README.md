@@ -90,12 +90,17 @@ As we can see in this graph, we have some values that range from $150 to $300. I
 ![image](https://github.com/Alaskanwildman/DataScienceFundProjVernonn/assets/31549358/b7318973-a450-468e-b515-9586163e8947)
 
 In the second attempt, I set the maximum cost to $100, removing many of the outliers. <br>
-Interestingly we can see a spike in price from a rating of 3-4, jumping all the way up to $100. Additionally the rating of 1 caps off at $30. Many of the other ratings tapper off around $60, which is to be expected as that is the industry standard price for a newly released game. <br>
+Interestingly we can see a spike in price from a rating of 3-4, jumping all the way up to $100. Additionally the rating of 1 caps off at $30. Many of the other ratings taper off around $60, which is to be expected as that is the industry standard price for a newly released game. <br>
 
 ## Question 3 Conclusion
-This question I found to be the most informative and surprising. The spike around 3-4 was not an outcome that I would have predicted before this project. 
+This question I found to be the most informative and surprising. The spike around 3-4 was not an outcome that I would have predicted before this project. <br>
+Coming to a conclusion just from the graphs presented before is difficult, so I again employed the line of best fit to assist in finding any hidden trends. 
+![image](https://github.com/Alaskanwildman/DataScienceFundProjVernonn/assets/31549358/a5b81c48-e3e4-4175-9d7a-4629b9618ab0)
+Using this graph we can see that there is an incredibly small favor towards higher-rated games. This means that higher-rated games will tend to be slightly more expensive than lower-rated games.
 
-
+# References
+Game Recommendations dataset from Kaggle, uploaded by Anton Kozyriev <br>
+https://www.kaggle.com/datasets/antonkozyriev/game-recommendations-on-steam
 
 
 
